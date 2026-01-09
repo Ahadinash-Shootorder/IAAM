@@ -84,7 +84,7 @@ export default function Header() {
               />
             </Link>
 
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-2 text-black">
               <button
                 onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
                 className="md:hidden p-2"
